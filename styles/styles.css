@@ -1,0 +1,53 @@
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800 */
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: 800; */
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+nav{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 67px;
+}
+.nav-style{
+    
+    font-weight: 800px;
+    font-size:45px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul li{
+    margin-right: 50px;
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+
+}
+
+.primary-color{
+    color:#FD6E0A;
+}
+.button-primary{
+    background-color:#FD6E0A;
+    margin: 0px;
+    padding:18px 35px;
+   color:white;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:20px;
+    border: none;
+
+}
+.dark-2{
+   color: #474747; 
+}
